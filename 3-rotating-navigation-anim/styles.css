@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 110px 70px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+} 
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+}
+
+small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3em;
+}
+
+img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#toggle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  120px;
+    height: 120px;
+    border-bottom-right-radius: 100%; 
+    background: #d5c282;
+}
+
+#center-bar{
+    width: 45px;
+    height: 7px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+}
+
+#center-bar::after, #center-bar::before {
+    content: "";
+    width: 45px;
+    height: 7px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+}
+
+#center-bar::after {
+    top: 13px;
+}
+
+#center-bar::before {
+    bottom: 13px;
+}
