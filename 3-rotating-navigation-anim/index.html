@@ -1,39 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotating Navigation</title>
-    <link rel="stylesheet" href="/styles.css"> 
-</head>
-<body>
-    <h1>Crime and Punishment</h1>
-    <small>A psychological masterclass</small>
-    <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal
-    The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume.
-    <br>Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random
-    murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond
-    conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator,
-    Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his
-    neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.</p>
-    <h3>Fyodor Dostoevsky</h3>
-    <img alt = "Image of Fyodor Dostoevsky" src="https://cdni.russiatoday.com/rbthmedia/images/2021.11/original/61978ab315e9f928470acb5e.jpg">
-    <p> Fyodor Mikhailovich Dostoyevsky was a Russian novelist, journalist, short story writer, philosopher and essayist. His
-    literary works explore psychology in the political, social, and spiritual turmoil of 19th-century Russia. His writings
-    reveal a wide range of philosophical and religious themes. Dostoyevsky is best known for the novels, <b>The Brothers
-    Karamasov</b>, <b>The Idiot</b>, and above all, <b>Crime and Punishment</b>. He has left his mark, still strong a century and a half after
-    his death, on the world of Russian literature with a multitude of scholars studying his works. Russian websites are
-    dominated by discussions about Dostoyevsky. Visitors to St Petersburg find a Dostoyevsky site related either to his life
-    or the settings of his novels around every corner. One of the reasons for Dostoyevsy’s enduring cultural importance is
-    that he addressed aspects of Russian life in his time, which were no less relevant to the Soviet Russia to come and, now
-    again, in twenty-first century Russia. He prophesied the totalitarianism of the Soviet period. Many of the social
-    problems that preoccupied him and ran strongly through his philosophical, essay and fictional writing are still of
-    concern in modern Russia -- the issues of poverty, crime, gambling, alcoholism, family disintegration, child abuse. Those
-    were his recurrent themes.</p>
-    <div id = "toggle-container">
-        <div id = "center-bar"></div>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="body-container">
+      <div id="content">
+        <h1>Crime and Punishment</h1>
+        <small>A psychological masterclass</small>
+        <p>
+          Crime and Punishment is a novel by the Russian author Fyodor
+          Dostoevsky. It was first published in the literary journal The Russian
+          Messenger in twelve monthly installments during 1866. It was later
+          published in a single volume. <br />Raskolnikov, a destitute and
+          desperate former student, wanders through the slums of St Petersburg
+          and commits a random murder without remorse or regret. He imagines
+          himself to be a great man, a Napoleon: acting for a higher purpose
+          beyond conventional moral law. But as he embarks on a dangerous game
+          of cat and mouse with a suspicious police investigator, Raskolnikov is
+          pursued by the growing voice of his conscience and finds the noose of
+          his own guilt tightening around his neck. Only Sonya, a downtrodden
+          sex worker, can offer the chance of redemption.
+        </p>
+        <h3>Fyodor Dostoevsky</h3>
+        <img
+          alt="Image of Fyodor Dostoevsky"
+          src="https://cdni.russiatoday.com/rbthmedia/images/2021.11/original/61978ab315e9f928470acb5e.jpg"
+        />
+        <p>
+          Fyodor Mikhailovich Dostoyevsky was a Russian novelist, journalist,
+          short story writer, philosopher and essayist. His literary works
+          explore psychology in the political, social, and spiritual turmoil of
+          19th-century Russia. His writings reveal a wide range of philosophical
+          and religious themes. Dostoyevsky is best known for the novels,
+          <b>The Brothers Karamasov</b>, <b>The Idiot</b>, and above all,
+          <b>Crime and Punishment</b>. He has left his mark, still strong a
+          century and a half after his death, on the world of Russian literature
+          with a multitude of scholars studying his works. Russian websites are
+          dominated by discussions about Dostoyevsky. Visitors to St Petersburg
+          find a Dostoyevsky site related either to his life or the settings of
+          his novels around every corner. One of the reasons for Dostoyevsy’s
+          enduring cultural importance is that he addressed aspects of Russian
+          life in his time, which were no less relevant to the Soviet Russia to
+          come and, now again, in twenty-first century Russia. He prophesied the
+          totalitarianism of the Soviet period. Many of the social problems that
+          preoccupied him and ran strongly through his philosophical, essay and
+          fictional writing are still of concern in modern Russia -- the issues
+          of poverty, crime, gambling, alcoholism, family disintegration, child
+          abuse. Those were his recurrent themes.
+        </p>
+      </div>
     </div>
+    <div id="toggles-container">
+      <div id="tob-container"><div id="center-bar"></div></div>
+      <div id="x-container"></div>
+    </div>
+    <ul>
+      <li><i class="fa-solid fa-house"></i>HOME</li>
+      <li><i class="fa-solid fa-address-card"></i>ABOUT</li>
+      <li><i class="fa-solid fa-phone"></i>CONTACT</li>
+    </ul>
     <script type="module" src="index.js"></script>
-</body>
+  </body>
 </html>

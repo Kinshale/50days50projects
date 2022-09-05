@@ -8,8 +8,23 @@
 }
 
 body {
+    background: black; 
+    overflow-x: hidden;
+}
+
+#body-container {
+    background: whitesmoke;
     padding: 110px 70px;
     padding-bottom: 30px;
+    transition: transform 0.5s linear;
+    transform-origin: top left;
+}
+
+.rotate {
+    transform: rotate(-15deg);
+}
+
+#content {    
     margin: 0 auto;
     max-width: 1200px;
 } 
@@ -40,14 +55,29 @@ img {
     margin-top: 30px;
 }
 
-#toggle-container {
+#toggles-container {
     position: fixed;
-    top: 0;
-    left: 0;
-    width:  120px;
-    height: 120px;
-    border-bottom-right-radius: 100%; 
+    top: -120px;
+    left: -120px;
+    width:  240px;
+    height: 240px;
+    border-radius: 50%; 
     background: #d5c282;
+    transition: transform 0.5s linear;
+}
+
+.rotate-90 {
+    transform: rotate(-90deg);
+    position: absolute !important;
+}
+
+#tob-container {
+    width: 45px;
+    height: 33px;
+    position: absolute;
+    top: 152px;
+    left: 152px;
+    cursor: pointer;
 }
 
 #center-bar{
@@ -55,9 +85,7 @@ img {
     height: 7px;
     background-color: white;
     border-radius: 3px;
-    position: absolute;
-    top: 45px;
-    left: 32px;
+    position: relative;
 }
 
 #center-bar::after, #center-bar::before {
@@ -74,5 +102,37 @@ img {
 }
 
 #center-bar::before {
-    bottom: 13px;
+    top: 26px;
+}
+
+#x-container {
+    width: 45px;
+    height: 33px;
+    position: absolute;
+    top: 152px;
+    left: 43px;
+    cursor: pointer;
+}
+
+#x-container::after,#x-container::before {
+    content: "";
+    width: 45px;
+    height: 8px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 13px;    
+}
+
+#x-container::after{
+    transform: rotate(45deg);
+}
+#x-container::before {
+    transform: rotate(-45deg);
+}
+
+ul {
+    background: blue;
+    position: absolute;
+    top: 60%;
 }
