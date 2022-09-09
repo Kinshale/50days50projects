@@ -1,138 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: black; 
-    overflow-x: hidden;
+  background: #5e5938;
+  overflow-x: hidden;
 }
 
 #body-container {
-    background: whitesmoke;
-    padding: 110px 70px;
-    padding-bottom: 30px;
-    transition: transform 0.5s linear;
-    transform-origin: top left;
+  background: whitesmoke;
+  padding: 110px 70px;
+  padding-bottom: 30px;
+  transition: transform 0.5s linear;
+  transform-origin: top left;
 }
 
 .rotate {
-    transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
-#content {    
-    margin: 0 auto;
-    max-width: 1200px;
-} 
+#content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 4em;
+  font-family: "Oswald", sans-serif;
+  font-size: 4em;
 }
 
 small {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
-    font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-style: italic;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    padding: 15px 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 0;
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.3em;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.3em;
 }
 
 img {
-    width: 100%;
-    margin-top: 30px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 #toggles-container {
-    position: fixed;
-    top: -120px;
-    left: -120px;
-    width:  240px;
-    height: 240px;
-    border-radius: 50%; 
-    background: #d5c282;
-    transition: transform 0.5s linear;
+  position: fixed;
+  top: -120px;
+  left: -120px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: #d8bf6f;
+  transition: transform 0.5s linear;
 }
 
 .rotate-90 {
-    transform: rotate(-90deg);
-    position: absolute !important;
+  transform: rotate(-90deg);
+  position: absolute !important;
 }
 
 #tob-container {
-    width: 45px;
-    height: 33px;
-    position: absolute;
-    top: 152px;
-    left: 152px;
-    cursor: pointer;
+  width: 45px;
+  height: 33px;
+  position: absolute;
+  top: 152px;
+  left: 152px;
+  cursor: pointer;
 }
 
-#center-bar{
-    width: 45px;
-    height: 7px;
-    background-color: white;
-    border-radius: 3px;
-    position: relative;
+#center-bar {
+  width: 45px;
+  height: 7px;
+  background-color: white;
+  border-radius: 3px;
+  position: relative;
 }
 
-#center-bar::after, #center-bar::before {
-    content: "";
-    width: 45px;
-    height: 7px;
-    background-color: white;
-    border-radius: 3px;
-    position: absolute;
+#center-bar::after,
+#center-bar::before {
+  content: "";
+  width: 45px;
+  height: 7px;
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
 }
 
 #center-bar::after {
-    top: 13px;
+  top: 13px;
 }
 
 #center-bar::before {
-    top: 26px;
+  top: 26px;
 }
 
 #x-container {
-    width: 45px;
-    height: 33px;
-    position: absolute;
-    top: 152px;
-    left: 43px;
-    cursor: pointer;
+  width: 45px;
+  height: 33px;
+  position: absolute;
+  top: 152px;
+  left: 43px;
+  cursor: pointer;
 }
 
-#x-container::after,#x-container::before {
-    content: "";
-    width: 45px;
-    height: 8px;
-    background-color: white;
-    border-radius: 3px;
-    position: absolute;
-    top: 13px;    
+#x-container::after,
+#x-container::before {
+  content: "";
+  width: 45px;
+  height: 8px;
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 13px;
 }
 
-#x-container::after{
-    transform: rotate(45deg);
+#x-container::after {
+  transform: rotate(45deg);
 }
 #x-container::before {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 ul {
-    background: blue;
-    position: absolute;
-    top: 60%;
+  position: absolute;
+  bottom: 30px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+ul li {
+  transform: translateX(-150%);
+  transition: transform 0.8s ease-out;
+}
+
+/* ul li + li {
+  transform: translateX(-100%);
+}
+
+ul li + li + li {
+  transform: translateX(-100%);
+} */
+
+.fa-home {
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.fa-address-card {
+  margin-bottom: 35px;
+  margin-left: 25px;
+}
+.fa-phone {
+  margin-left: 35px;
 }
