@@ -28,6 +28,7 @@ input {
   font-size: 1.7em;
   background: white;
   padding: 15px;
+  padding-right: 45px;
   transition: width 0.5s linear;
 }
 
@@ -52,7 +53,7 @@ button > i {
 }
 
 .kinshale {
-  transform: translateX(200px);
+  transform: translateX(170px);
 }
 
 input:focus {
