@@ -49,11 +49,11 @@ button > i {
 }
 
 .active {
-  width: 200px !important;
+  width: 250px !important;
 }
 
 .kinshale {
-  transform: translateX(170px);
+  transform: translateX(220px);
 }
 
 input:focus {
