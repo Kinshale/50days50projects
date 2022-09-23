@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-1: #879950;
+  --color-2: #3c4e26;
+  --color-3: #fefae0;
+  --color-4: #b1eb6a;
+}
+
+body {
+  background-color: var(--color-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.div-container {
+  width: 25rem;
+  height: 30rem;
+  background-color: var(--color-2);
+  color: var(--color-3);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  padding: 10px 30px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 35px auto;
+}
+
+.form-control {
+  position: relative;
+  width: 100%;
+  border-bottom: 2px solid var(--color-3);
+  height: 65px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.active-border {
+  border-color: var(--color-4);
+}
+
+.form-control input {
+  width: 100%;
+  border: none;
+  color: var(--color-3);
+  background-color: var(--color-2);
+  height: 45px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 1.4em;
+}
+
+.active {
+  color: var(--color-4);
+}
+
+.form-control input:active,
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.form-control span {
+  font-size: 1.2em;
+  display: inline-block;
+  transition: transform 200ms linear;
+}
+
+.not-selected {
+  transform: translatey(25px);
+}
+
+button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.3em;
+  color: var(--color-3);
+  background: #8aaf5c;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+  font-size: 1.3em;
+}
+
+a {
+  color: #a9d870;
+  text-decoration: none;
+}
