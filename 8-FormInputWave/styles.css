@@ -53,12 +53,13 @@ h1 {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   color: var(--color-3);
-  background-color: var(--color-2);
+  background-color: transparent;
   height: 45px;
   position: absolute;
   bottom: 0px;
   left: 0px;
   font-size: 1.4em;
+  z-index: +2;
 }
 
 input:focus,
