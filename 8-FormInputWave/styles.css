@@ -41,19 +41,17 @@ h1 {
 .form-control {
   position: relative;
   width: 100%;
-  border-bottom: 2px solid var(--color-3);
   height: 65px;
   margin-bottom: 30px;
   text-align: left;
 }
 
-.active-border {
-  border-color: var(--color-4);
-}
-
 .form-control input {
   width: 100%;
   border: none;
+  border-bottom-color: var(--color-3);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
   color: var(--color-3);
   background-color: var(--color-2);
   height: 45px;
@@ -63,24 +61,23 @@ h1 {
   font-size: 1.4em;
 }
 
-.active {
-  color: var(--color-4);
-}
-
-.form-control input:active,
-input:focus {
+input:focus,
+input:valid {
   outline: none;
-  border: none;
+  border-bottom-color: var(--color-4);
 }
 
 .form-control span {
   font-size: 1.2em;
   display: inline-block;
   transition: transform 200ms linear;
+  transform: translatey(25px);
 }
 
-.not-selected {
-  transform: translatey(25px);
+input:focus + label span,
+input:valid + label span {
+  transform: translatey(0px);
+  color: var(--color-4);
 }
 
 button {
@@ -104,6 +101,6 @@ button:hover {
 }
 
 a {
-  color: #a9d870;
+  color: var(--color-4);
   text-decoration: none;
 }
