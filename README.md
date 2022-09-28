@@ -1,11 +1,11 @@
 # 50days50projects
 This project is a personal rework of https://github.com/bradtraversy/50projects50days. 
-This project was built for **education** purposes only. 
+This project was built for **educational** purposes only. 
 | | Project Name        | Cool  |
 |-| ------------- | -----|
-|1| Expandig Cards |  [Demo]() |
-|2| Progress Steps | [Demo]() |
-|3| Rotating Navigation Anim | [Demo]() |
+|1| Expandig Cards |  [Demo](https://expanding-cards-kinshale.netlify.app)|
+|2| Progress Steps | [Demo](https://progress-steps-kinshale.netlify.app/) |
+|3| Rotating Navigation Anim | [Demo](https://rotating-navigation-kinshale.netlify.app/)|
 |4| Hidden Search Widget| [Demo]() |
 |5| Blurred Loading | [Demo]() |
 |6| Scroll Animation | [Demo]() |
