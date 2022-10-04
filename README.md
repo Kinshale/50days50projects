@@ -11,3 +11,7 @@ This project was built for **educational** purposes only.
 |6| Scroll Animation | [Demo]() |
 |7| Splitted Landing Page | [Demo](https://splitted-land-page-kinshale.netlify.app/)|
 |8| Form Input Wave| [Demo]() |
+|9| Sound Board| [Demo]() |
+|10| --| [Demo]() |
+|11| Event Keycodes| [Demo]() |
+|12| Faq Collapse| [Demo]() |
