@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+
+#container {
+  display: flex;
+  color: whitesmoke;
+  font-family: "DM Mono", monospace;
+}
+
+.social {
+  margin: 0 60px;
+  text-align: center;
+}
+
+.social .fab {
+  font-size: 70px;
+}
+.social h2 {
+  margin-top: 25px;
+  font-size: 3.8em;
+}
+.social p {
+  margin-top: 10px;
+  font-size: 1.4em;
+}
