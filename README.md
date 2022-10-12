@@ -17,4 +17,4 @@ This project was built for **educational** purposes only.
 |12| Faq Collapse| [Demo]() |
 |13| Random Choice Picker | [Demo](https://random-choice-picker-kinshale.netlify.app/)|
 |14| -- | [Demo]()|
-|15| Increment Counter Animation | [Demo](https://app.netlify.com/sites/increment-counter-anim-kinshale/settings/general)|
+|15| Increment Counter Animation | [Demo](https://increment-counter-anim-kinshale.netlify.app/)|
