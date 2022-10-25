@@ -1,0 +1,76 @@
+:root {
+  --background: rgb(0, 75, 160);
+  --triangle: rgb(253, 253, 253);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.triangle {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  width: 0px;
+  height: 0px;
+  border-width: 60px;
+  border-style: solid;
+  border-color: var(--triangle) transparent transparent transparent;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: monospace;
+  color: var(--triangle);
+  text-align: center;
+  margin-top: calc(50vh - 130px);
+}
+
+.triangle:nth-of-type(1) {
+  animation: rotate1 2s infinite ease-in-out;
+}
+.triangle:nth-of-type(2) {
+  animation: rotate2 2s infinite ease-in-out;
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(270deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  75% {
+    transform: rotate(450deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
