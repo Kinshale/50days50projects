@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -9,6 +8,7 @@ body {
   height: 100vh;
   min-height: 300px;
   display: flex;
+  background-color: whitesmoke;
   align-items: center;
 }
 
@@ -24,7 +24,18 @@ body {
   height: 150px;
   margin: 2px;
   border: 4px solid black;
-  background-color: whitesmoke;
+}
+
+.image {
+  background-image: url("./cervino.jpeg");
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+}
+
+.box.hover {
+  border-style: dashed;
+  background-color: rgb(219, 219, 219);
 }
 
 @media screen and (max-width: 750px) {
