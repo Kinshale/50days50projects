@@ -1,9 +1,10 @@
 # 50days50projects
-This project is a personal rework of https://github.com/bradtraversy/50projects50days. 
-This project was built for **educational** purposes only. 
-| | Project Name        | Cool  |
+
+This project is a personal rework of https://github.com/bradtraversy/50projects50days.
+This project was built for **educational** purposes only.
+| | Project Name | Cool |
 |-| ------------- | -----|
-|1| Expandig Cards |  [Demo](https://expanding-cards-kinshale.netlify.app)|
+|1| Expandig Cards | [Demo](https://expanding-cards-kinshale.netlify.app)|
 |2| Progress Steps | [Demo](https://progress-steps-kinshale.netlify.app/) |
 |3| Rotating Navigation Anim | [Demo](https://rotating-navigation-kinshale.netlify.app/)|
 |4| Hidden Search Widget| [Demo](https://hidden-search-widget-kinshale.netlify.app) |
@@ -19,3 +20,5 @@ This project was built for **educational** purposes only.
 |14| -- | [Demo]()|
 |15| Increment Counter Animation | [Demo](https://increment-counter-anim-kinshale.netlify.app/)|
 |16| Drink Water | [Demo](https://drink-water-kin.netlify.app/)
+
+Biblioteca Vimercate.
