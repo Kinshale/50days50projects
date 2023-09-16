@@ -20,5 +20,3 @@ This project was built for **educational** purposes only.
 |14| -- | [Demo]()|
 |15| Increment Counter Animation | [Demo](https://increment-counter-anim-kinshale.netlify.app/)|
 |16| Drink Water | [Demo](https://drink-water-kin.netlify.app/)
-
-Biblioteca Vimercate.
